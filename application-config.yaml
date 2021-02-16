@@ -1,0 +1,20 @@
+development:
+  server_config:
+    host: "0.0.0.0"
+    port: 3001
+    jwt_token_location: "config-file"
+    jwt_token: "11223344556677889900"
+  logger_config:
+    legging_level: 'all'
+    combined_logs: true
+    combined_log_file_path: 'logs/combined.log'
+    dedicated_logs: true
+    networked_logs: false
+    log_servers:
+      - 'zeeshan.com'
+      - 'huzaifah.com'
+  db_config:
+    url: ''
+
+selected_environment:
+  development
